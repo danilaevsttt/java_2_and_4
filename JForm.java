@@ -376,7 +376,6 @@ public class JForm extends javax.swing.JFrame {
     private void jButtonClearActionPerformed(java.awt.event.ActionEvent evt) {
         DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
         model.setRowCount(0);  
-        // integralRecords.clear();  // 
         jTextFieldLowerBound.setText("");
         jTextFieldUpperBound.setText("");
         jTextFieldStepBound.setText("");
