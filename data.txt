@@ -1,0 +1,2 @@
+lowerBound;upperBound;step;result
+1.0000000000;2.0000000000;0.3000000000;0.944335
