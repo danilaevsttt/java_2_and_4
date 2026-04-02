@@ -373,11 +373,10 @@ public class JForm extends javax.swing.JFrame {
         }
     }                                          
 
-    // 🔧 ИСПРАВЛЕНО: убрано integralRecords.clear() — данные сохраняются в коллекции
     private void jButtonClearActionPerformed(java.awt.event.ActionEvent evt) {
         DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
-        model.setRowCount(0);  // очищаем только отображение в таблице
-        // integralRecords.clear();  // ← удалено: данные должны остаться в коллекции!
+        model.setRowCount(0);  
+        // integralRecords.clear();  // 
         jTextFieldLowerBound.setText("");
         jTextFieldUpperBound.setText("");
         jTextFieldStepBound.setText("");
